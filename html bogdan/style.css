@@ -20,12 +20,10 @@ h1 {
 
 #div_for_flex {
     display: flex;
+    margin: 0 auto;
+    width: min-content;
 }
 
 #tatu, #cat {
     width: 300px;
-}
-
-#cat {
-    float: right;
 }
