@@ -6,19 +6,117 @@
     </head>
 
     <body> 
+        <header>
+            <h1>Новый заголовок</h1>
+        </header>
         <h1>Hello</h1>
+
         <p id = "time_to_pudge"> Time to Pudge</p>
+
         <p> But what about... <br/> 
             <hr id = "hook?" /> Hook?</p>
+
         <hr width = "50%">
+
+
         <div>
             <img id ="1" src = https://sun9-15.userapi.com/impg/qMm2opcV8w6mQ8i5jknpkz_UZTWhrBBTSiTofA/a3XrdCgdeMY.jpg?size=824x227&quality=96&sign=1b9ccc8d4f59c46345edbb1f3cc6fead&type=album />
+
+            <br>
+
+            <svg width = "200" height = "200"> 
+                <circle cx = "80" cy = "80" r = "50" fill = "red">
+                    <animate attributeName = "x" from = "0" to = "300" dur = "3s" fill = "freeze" repeatCount = "2" />
+                </circle>
+            </svg>
+
+            <canvas id="canvas1" width="400" height="300"></canvas> 
+
+            <script>
+                var can = document.getElementById("canvas1"); 
+                var ctx = can.getContext("2d");
+            </script>
         </div>
+
+        <form>
+            <input type = "text" name "username" /> <br />
+            <input type = "password" name "password" />
+            <input type = "submit" value = "bottom" />
+        </form>
+
+        <h1>New contact</h1>
+        <form>
+            <input name = "name" type = "text" /> <br/>
+            <input name = "email" type = "email" /> <br/>
+            <input type = "submit" value = "Send" class = "submit" />
+        </form>
+
+        <article>
+
+            <h3>Wellcum</h3>
+
+            <table border = "2">
+                <tr>
+                    <td>
+                        <selection>
+                        <h3> Заголовок </h3>
+                        <p>Content</p>
+                        </selection>
+                    </td>
+
+                    <td>
+                        <aside>
+                            <p>Yesss</p>
+                        </aside>
+                    </td>
+                </tr>
+            </table>
+
+        </article>
+
+        <video controls loop>
+            <sourse src = "video.mp4" type = "video/mp.4"></sourse>
+            Нема видео
+        </video>
+
+        <br>
+
+        <audio controls>
+            <source src = "audio.mp3" type = "audio/mp.3">
+            Нема аудио
+        </audio>
+
+        <br/>
+
+        Статус: <progress min = "0" max = "100" value = "35"></progress>
         <ol>
             <li>First</li>
             <li>Second</li>
             <li>3)))</li>
         </ol>
+
+
+        <table border = "2">
+            <tr>
+                <td bgcolor = "white green"> SSSS </td>
+                <td> <a href = "https://www.sololearn.com/profile/23201898" target = "_blamk"> My sololearn profile </a></td>
+                <td> Yes?</td>
+            </tr>
+            <tr>
+                <td>NO</td>
+                <td  colspan = "2" bgcolor = "red"> No but bext col</td>
+            </tr>
+            
+        </table>
+        
+        <!-- <frameset cols="25%,50%,25%">
+            <frame src="a.htm" />
+            <frame src="b.htm" />
+            <frame src="c.htm" />
+            <noframes>Frames not supported!</noframes>
+         </frameset> -->
+
+
         <ul>
             <li>
                 <a href = "https://vk.com/palyanaff">
@@ -26,5 +124,12 @@
                 </a>
             </li>
         </ul>
+
+        <footer> 
+            <div>
+                <p>Мой телефон: 8800553535 )) </p>
+            </div>
+        </footer>
+
     </body>
 </html>
